@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsCurrencyDollar } from 'react-icons/bs';
-import { GoPrimitiveDot } from 'react-icons/go';
+// import { GoPrimitiveDot } from 'react-icons/go';
+import { GoDot } from 'react-icons/go';
 import { IoIosMore } from 'react-icons/io';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 
@@ -73,13 +74,13 @@ const Ecommerce = () => {
             <div className="flex items-center gap-4">
               <p className="flex items-center gap-2 text-gray-600 hover:drop-shadow-xl">
                 <span>
-                  <GoPrimitiveDot />
+                  <GoDot />
                 </span>
                 <span>Expense</span>
               </p>
               <p className="flex items-center gap-2 text-green-400 hover:drop-shadow-xl">
                 <span>
-                  <GoPrimitiveDot />
+                  <GoDot />
                 </span>
                 <span>Budget</span>
               </p>
@@ -308,8 +309,8 @@ const Ecommerce = () => {
               alt=""
             />
             <div className="mt-8">
-              <p className="font-semibold text-lg">React 18 coming soon!</p>
-              <p className="text-gray-400 ">By Johnathan Doe</p>
+              <p className="font-semibold text-lg">React</p>
+              <p className="text-gray-400 ">Shivakumar Dasari</p>
               <p className="mt-8 text-sm text-gray-400">
                 This will be the small description for the news you have shown
                 here. There could be some great info.
